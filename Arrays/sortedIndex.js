@@ -14,3 +14,6 @@ var listOfProducts = [
 
 var value = _.sortedIndex(listOfProducts, {country : "France", fruit : "Grape", color : "green", price : 1.90}, 'price');
 console.log(value);
+
+var value = _.sortedIndex([1,2,3,5,6], 4);
+console.log(value);
